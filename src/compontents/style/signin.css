@@ -1,0 +1,81 @@
+.signin-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    190deg,
+    rgb(162, 165, 156),
+    rgb(209, 46, 147) 53%,
+    rgb(145, 144, 146) 87%
+  );
+}
+
+.signin-top {
+  color: rgb(255, 238, 0);
+  font-size: 2rem;
+  text-shadow: rgb(15, 40, 224) 2px 1px;
+  font-weight: 500;
+}
+
+.signin-line {
+  width: 8rem;
+  height: 0.1rem;
+  background-color: black;
+}
+
+.siginin-det {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+  width: 15rem;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.sig-email {
+  width: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 1.2rem;
+  background-color: transparent;
+  font-weight: 200;
+  border: 1px solid beige;
+}
+
+.sig-pass {
+  width: 15rem;
+  font-size: 1.2rem;
+  background-color: transparent;
+  font-weight: 200;
+  border: 1px solid wheat;
+}
+
+.signin-btn {
+  width: 5rem;
+  height: 2rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 5rem;
+  box-shadow: black 2px 2px;
+}
+
+.signin-btn:hover {
+  background: linear-gradient(
+    190deg,
+    rgb(150, 206, 38) 20%,
+    rgb(209, 46, 147) 53%,
+    rgb(112, 28, 197) 87%
+  );
+}

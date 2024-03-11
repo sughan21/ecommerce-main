@@ -1,0 +1,110 @@
+.login-pg {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    196deg,
+    rgba(37, 229, 232, 1) 40%,
+    rgba(42, 191, 50, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.signup-top {
+  font-size: 1.5rem;
+  font-weight: 400;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signup-line {
+  width: 7rem;
+  height: 0.1rem;
+  background-color: black;
+}
+
+.signup-full-det {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+  width: 15rem;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+.signup-box {
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.signup-bottom-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.signup-btn {
+  width: 15rem;
+  height: 2rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 2.5px rgb(0, 0, 0);
+}
+.signup-btn:hover {
+  background: linear-gradient(
+    196deg,
+    rgba(232, 62, 37, 1) 26%,
+    rgba(1, 140, 134, 1) 53%,
+    rgba(135, 19, 173, 1) 87%
+  );
+  color: white;
+  border-radius: 5px;
+}
+
+.google-signup-btn {
+  width: 15rem;
+  height: 2rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 2.5px rgb(0, 0, 0);
+}
+
+.google-signup-btn:hover {
+  background: linear-gradient(
+    130deg,
+    rgba(232, 62, 37, 1) 26%,
+    rgb(198, 209, 46) 53%,
+    rgba(135, 19, 173, 1) 87%
+  );
+  color: white;
+  border-radius: 5px;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 2rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 2.5px rgb(0, 0, 0);
+}
+
+.login-btn:hover {
+  background: linear-gradient(
+    220deg,
+    rgb(167, 232, 37),
+    rgb(209, 46, 147) 53%,
+    rgba(135, 19, 173, 1) 87%
+  );
+  color: white;
+  border-radius: 5px;
+}
