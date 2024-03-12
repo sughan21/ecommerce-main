@@ -1,33 +1,35 @@
 import { Link } from "react-router-dom";
+import { CiUser } from "react-icons/ci";
 const NavBar = () => {
   return (
     <div className="w-full h-[5rem] bg-blue-200 flex justify-between items-center">
       <nav className="w-full px-4 shadow ">
-        <div className="container flex items-center  justify-between h-[5rem] mx-auto">
+        <div className="container flex items-center  justify-between h-[5rem] ">
           <div>
             <img
-              src="https://www.shutterstock.com/image-vector/clothing-store-logo-design-inspiration-600nw-2104754999.jpg"
+              src="https://sony.scene7.com/is/content/sonyglobalsolutions/sony-logo?$S7Product$"
               alt="logo"
-              className="w-[80px] h-auto object-contain ml-10"
+              className="w-[8rem] h-[3rem] object-contain bg-black  border-2 border-blue-500 ml-8"
             />
           </div>
-          <ul className="flex items-center gap-8 mr-10">
+          <ul className="flex items-center gap-5 mr-10 ">
             <Link to="/">
               <li className="text-xl font-medium">
                 <a href="#">Home</a>
               </li>
             </Link>
-            {/* <Link to ='/About'></Link> */}
+            <Link to="/card"></Link>
             <li className="text-xl font-medium">
-              <a href="#">About</a>
+              <a href="#">Card</a>
             </li>
-            <Link to="/Contact">
-              <li className="text-xl font-medium">
-                <a href="#">Contact</a>
-              </li>
-            </Link>
+
             <li className="text-xl font-medium">
               <Link to={"/Login-page"}>Login</Link>
+            </li>
+            <li className="text-2xl font-bold ">
+              <a href="#">
+                <CiUser />
+              </a>
             </li>
           </ul>
         </div>
