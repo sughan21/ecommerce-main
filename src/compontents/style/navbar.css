@@ -1,0 +1,51 @@
+.navbar-del {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(138, 196, 241);
+  padding: 2rem;
+}
+
+.nav-del {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sony-logo {
+  width: 8rem;
+  height: 3rem;
+  background-color: black;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+}
+
+.navbar-rig-del {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-weight: bold;
+}
+
+.user-nav1 {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.user-nav2 {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.user-nav3 {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.user-nav-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}

@@ -9,6 +9,7 @@ import Login from "./compontents/Login";
 import App from "./App";
 import SignIn from "./compontents/SignIn";
 import { UserProvider } from "./compontents/UserContext";
+import Card from "./compontents/card/card";
 
 const router = createBrowserRouter([
   {
@@ -20,8 +21,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/contact",
-        element: <h1>Hello contact</h1>,
+        path: "/card",
+        element: <Card />,
       },
       {
         path: "/login-page",
