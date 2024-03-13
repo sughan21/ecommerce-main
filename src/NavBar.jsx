@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { CiUser } from "react-icons/ci";
 import "./compontents/style/navbar.css";
+import { PiShoppingCartLight } from "react-icons/pi";
 
 const NavBar = () => {
   return (
@@ -21,15 +22,17 @@ const NavBar = () => {
               <div>Home</div>
             </li>
           </Link>
-          <Link to="/card">
-            <li className="user-nav2 ">
-              <div>Card</div>
-            </li>
-          </Link>
 
-          <li className="user-nav3">
+          <li className="user-nav2">
             <Link to={"/Login-page"}>Login</Link>
           </li>
+          <Link to="/card">
+            <li className="user-nav3 ">
+              <div>
+                <PiShoppingCartLight />
+              </div>
+            </li>
+          </Link>
           <li className=" user-nav-icon ">
             <div>
               <CiUser />
