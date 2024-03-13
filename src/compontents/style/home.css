@@ -74,3 +74,31 @@
   margin-left: 10rem;
   margin-bottom: -1rem;
 }
+
+.home-main {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  align-items: start;
+  justify-content: center;
+  gap: 10rem;
+  padding: 2rem;
+}
+
+.title-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: ;
+}
