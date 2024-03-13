@@ -45,39 +45,41 @@ const SignIn = () => {
   return (
     <section>
       <div className="signin-page">
-        <h1 className="signin-top">Sign-In</h1>
-        <div className="signin-line"></div>
-        <form action="" onSubmit={submitHandler}>
-          <div className="siginin-det">
-            <div>
-              <label htmlFor="email ">Email</label>
-              <input
-                className="sig-email"
-                type="email"
-                id="email"
-                name="email"
-                onChange={changeHandler}
-                placeholder="Email"
-              />
+        <div className="back-box">
+          <h1 className="signin-top">Sign-In</h1>
+          <div className="signin-line"></div>
+          <form action="" onSubmit={submitHandler}>
+            <div className="siginin-det">
+              <div>
+                <label htmlFor="email ">Email</label>
+                <input
+                  className="sig-email"
+                  type="email"
+                  id="email"
+                  name="email"
+                  onChange={changeHandler}
+                  placeholder="Email"
+                />
+              </div>
+              <div>
+                <label htmlFor="password">Password</label>
+                <input
+                  className="sig-pass"
+                  type="password"
+                  id="password"
+                  name="password"
+                  onChange={changeHandler}
+                  placeholder="Password"
+                />
+              </div>
             </div>
             <div>
-              <label htmlFor="password">Password</label>
-              <input
-                className="sig-pass"
-                type="password"
-                id="password"
-                name="password"
-                onChange={changeHandler}
-                placeholder="Password"
-              />
+              <button type="submit" className=" signin-btn">
+                Sign-In
+              </button>
             </div>
-          </div>
-          <div>
-            <button type="submit" className=" signin-btn">
-              Sign-In
-            </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </section>
   );

@@ -60,7 +60,7 @@ const Home = () => {
             alt="het-1"
             className="prod-img"
           />
-          <p className="flex justify-center text-center">
+          <p className="flex justify-center text-center font-bold">
             Stunning sound and longer battery life
           </p>
           <p className="flex justify-center text-center">WH-CH520</p>
@@ -75,7 +75,7 @@ const Home = () => {
             alt="het-1"
             className="prod-img"
           />
-          <p className="flex justify-center text-center">
+          <p className="flex justify-center text-center font-bold">
             MDR-MV1 Open Back Studio Monitor Headphones
           </p>
           <p className="flex justify-center text-center">MDR-MV1</p>
@@ -89,7 +89,7 @@ const Home = () => {
             alt="het-1"
             className="prod-img"
           />
-          <p className="flex justify-center text-center">
+          <p className="flex justify-center text-center font-bold">
             WH-XB910N Wire Headphones
           </p>
           <p className="flex justify-center text-center">WH-XB910N</p>
@@ -103,7 +103,7 @@ const Home = () => {
             alt="het-1"
             className="prod-img"
           />
-          <p className="flex justify-center text-center">
+          <p className="flex justify-center text-center font-bold">
             WH-CH520 Wire Headphones
           </p>
           <p className="flex justify-center text-center">WH-CH520</p>
@@ -117,7 +117,9 @@ const Home = () => {
             alt="het-1"
             className="prod-img"
           />
-          <p className="flex justify-center text-center">ZX110 Headphones</p>
+          <p className="flex justify-center text-center font-bold">
+            ZX110 Headphones
+          </p>
           <p className="flex justify-center text-center">
             MDR-ZX110/MDR-ZX110A/MDR-ZX110AP
           </p>
@@ -141,7 +143,7 @@ const Home = () => {
               alt="het-1"
               className="prod-img"
             />
-            <p className="flex justify-center text-center">
+            <p className="flex justify-center text-center font-bold">
               WF-1000XM5 Wireless Noise Cancelling Headphones
             </p>
             <p className="flex justify-center text-center">WF-1000XM5</p>
@@ -155,7 +157,7 @@ const Home = () => {
               alt="het-1"
               className="prod-img"
             />
-            <p className="flex justify-center text-center">
+            <p className="flex justify-center text-center font-bold">
               WF-C700N Wireless Noise Cancelling Headphones
             </p>
             <p className="flex justify-center text-center">WF-C700N</p>
@@ -169,7 +171,7 @@ const Home = () => {
               alt="het-1"
               className="prod-img"
             />
-            <p className="flex justify-center text-center">
+            <p className="flex justify-center text-center font-bold">
               WF-1000XM4 Wireless Noise Cancelling Headphones
             </p>
             <p className="flex justify-center text-center">WF-1000XM4</p>
@@ -183,7 +185,7 @@ const Home = () => {
               alt="het-1"
               className="prod-img"
             />
-            <p className="flex justify-center text-center">
+            <p className="flex justify-center text-center font-bold">
               WF-1000XM3 Wireless Noise Cancelling Headphones
             </p>
             <p className="flex justify-center text-center">WF-1000XM3</p>
@@ -197,7 +199,7 @@ const Home = () => {
               alt="het-1"
               className="prod-img"
             />
-            <p className="flex justify-center text-center">
+            <p className="flex justify-center text-center font-bold">
               WF-H800 h.ear in 3 Wireless Headphones
             </p>
             <p className="flex justify-center text-center">WF-H800</p>
@@ -221,7 +223,7 @@ const Home = () => {
                 alt="het-1"
                 className="prod-img"
               />
-              <p>Surround sound</p>
+              <p className="font-bold">Surround sound</p>
               <p>HT-S2000</p>
               {/* <p>This 3.1ch Dolby Atmos® / DTS:X® soundbar features powerful</p> */}
             </span>
@@ -231,7 +233,7 @@ const Home = () => {
                 alt="het-1"
                 className="prod-img"
               />
-              <p className="flex justify-center text-center">
+              <p className="flex justify-center text-center font-bold">
                 360 Spatial Sound that adapts to your environment
               </p>
               <p className="flex justify-center text-center">HT-A3000</p>
@@ -243,7 +245,7 @@ const Home = () => {
                 alt="het-1"
                 className="prod-img"
               />
-              <p className="flex justify-center text-center">
+              <p className="flex justify-center text-center font-bold">
                 360 Spatial Sound Mapping Dolby Atmos®/DTS:X® 5.1.2ch Soundbar
               </p>
               <p className="flex justify-center text-center">HT-A5000</p>
@@ -255,7 +257,7 @@ const Home = () => {
                 alt="het-1"
                 className="prod-img"
               />
-              <p className="flex justify-center text-center">
+              <p className="flex justify-center text-center font-bold">
                 7.1.2ch Dolby Atmos®/ DTS:X® Soundbar | HT-A7000
               </p>
               <p className="flex justify-center text-center">HT-A7000</p>
@@ -267,7 +269,7 @@ const Home = () => {
                 alt="het-1"
                 className="prod-img"
               />
-              <p className="flex justify-center text-center">
+              <p className="flex justify-center text-center font-bold">
                 SRS-NS7 Wireless Neckband Speaker
               </p>
               <p className="flex justify-center text-center">SRS-NS7</p>
