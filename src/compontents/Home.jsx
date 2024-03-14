@@ -11,6 +11,9 @@ const Home = () => {
         <a href="#Earbuds">
           <p className="click-1">Earbuds</p>
         </a>
+        <a href="#Tv">
+          <p className="click-1">Camera</p>
+        </a>
         <a href="#Home Theatre">
           <p className="click-1">Home Theatre & Soundbars</p>
         </a>
@@ -285,6 +288,54 @@ const Home = () => {
             alt="tv-page"
             className="tv-img"
           />
+        </div>
+        <div className="home-main">
+          <span className="box">
+            <img
+              src="src/compontents/images/tv/[removal.ai]_c88ab2cf-a0c5-4c06-adb3-aedf2deabbce-screenshot-210 (1) (1).png"
+              alt="het-1"
+              className="prod-img"
+            />
+            <p className="font-bold">Surround sound</p>
+            <p>HT-S2000</p>
+            {/* <p>This 3.1ch Dolby Atmos® / DTS:X® soundbar features powerful</p> */}
+          </span>
+          <span className="box">
+            <img
+              src="src/compontents/images/tv/[removal.ai]_e5ae56d9-5c67-49e2-b536-a40027e0d65f-screenshot-211 (1) (1).png"
+              alt="het-1"
+              className="prod-img"
+            />
+            <p className="flex justify-center text-center font-bold">
+              360 Spatial Sound that adapts to your environment
+            </p>
+            <p className="flex justify-center text-center">HT-A3000</p>
+            {/* <p>Stunning sound and longer battery life</p> */}
+          </span>
+          <span className="box">
+            <img
+              src="src/compontents/images/tv/[removal.ai]_fdcdfc38-a730-4111-a108-55ceda3e8238-screenshot-212 (1) (1).png"
+              alt="het-1"
+              className="prod-img"
+            />
+            <p className="flex justify-center text-center font-bold">
+              360 Spatial Sound Mapping Dolby Atmos®/DTS:X® 5.1.2ch Soundbar
+            </p>
+            <p className="flex justify-center text-center">HT-A5000</p>
+            {/* <p>Stunning sound and longer battery life</p> */}
+          </span>
+          <span className="box">
+            <img
+              src="src/compontents/images/tv/Removal-353 copy (1).png"
+              alt="het-1"
+              className="prod-img"
+            />
+            <p className="flex justify-center text-center font-bold">
+              7.1.2ch Dolby Atmos®/ DTS:X® Soundbar | HT-A7000
+            </p>
+            <p className="flex justify-center text-center">HT-A7000</p>
+            {/* <p>Stunning sound and longer battery life</p> */}
+          </span>
         </div>
       </div>
     </div>
