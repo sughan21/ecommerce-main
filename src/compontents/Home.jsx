@@ -17,7 +17,7 @@ const Home = () => {
         <a href="#Tv">
           <p className="click-1">Tv</p>
         </a>
-        <a href="#Tv">
+        <a href="#camera">
           <p className="click-1">Camera</p>
         </a>
       </div>
@@ -342,6 +342,83 @@ const Home = () => {
             <p className="flex text-center">A95L Series</p>
             {/* <p>Stunning sound and longer battery life</p> */}
           </span>
+        </div>
+      </div>
+      <div id="camera" className="five-home">
+        <div>
+          <img
+            src="src/compontents/images/camera/Screenshot (211).png"
+            alt="thi-home"
+            className="home-theater-img"
+          />
+          <div className="home-main">
+            <span className="box">
+              <img
+                src="src/compontents/images/camera/[removal.ai]_97e2bef0-71df-40d1-bc10-3c2af17cadeb-download-4.png"
+                alt="het-1"
+                className="prod-img"
+              />
+              <p className="font-bold text-center">
+                Alpha 1 with superb resolution and speed
+              </p>
+              <p>ILCE-1</p>
+              {/* <p>This 3.1ch Dolby Atmos® / DTS:X® soundbar features powerful</p> */}
+            </span>
+            <span className="box">
+              <img
+                src="src/compontents/images/camera/[removal.ai]_f05862d9-3ce3-4bdc-a417-4d7c9f0d9551-download-1.png"
+                alt="het-1"
+                className="prod-img"
+              />
+              <p className="flex justify-center text-center font-bold">
+                α9 III with global shutter
+              </p>
+              <p className="flex justify-center text-center">ILCE-9M3</p>
+              {/* <p>Stunning sound and longer battery life</p> */}
+            </span>
+            <span className="box">
+              <img
+                src="src/compontents/images/camera/[removal.ai]_acb594ed-ef8c-416c-b57e-a6ac4b47a471-download-5.png"
+                alt="het-1"
+                className="prod-img"
+              />
+              <p className="flex justify-center text-center font-bold">
+                Alpha 7 III with 35mm full-frame image sensor
+              </p>
+              <p className="flex justify-center text-center">
+                ILCE-7M3/ILCE-7M3K
+              </p>
+              {/* <p>Stunning sound and longer battery life</p> */}
+            </span>
+            <span className="box">
+              <img
+                src="src/compontents/images/camera/[removal.ai]_ddcefd62-e40e-4604-a801-108bde86c834-download-2.png"
+                alt="het-1"
+                className="prod-img"
+              />
+              <p className="flex justify-center text-center font-bold">
+                Alpha 7C Compact full-frame camera
+              </p>
+              <p className="flex justify-center text-center">
+                ILCE-7C/ILCE-7CL
+              </p>
+              {/* <p>Stunning sound and longer battery life</p> */}
+            </span>
+            <span className="box">
+              <img
+                src="src/compontents/images/camera/[removal.ai]_3458847c-a58e-49c0-bcd5-88bdfd90e3c1-download-3.png"
+                alt="het-1"
+                className="prod-img"
+              />
+              <p className="flex justify-center text-center font-bold">
+                α7 IV full-frame hybrid camera
+              </p>
+              <p className="flex justify-center text-center">
+                ILCE-7M4/ILCE-7M4K
+              </p>
+              {/* <p>Stunning sound and longer battery life</p> */}
+            </span>
+          </div>
         </div>
       </div>
     </div>
