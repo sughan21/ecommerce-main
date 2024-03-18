@@ -10,6 +10,7 @@ import App from "./App";
 import SignIn from "./compontents/SignIn";
 import { UserProvider } from "./compontents/UserContext";
 import Card from "./compontents/card/card";
+import Product_select from "./compontents/Product_select/product_select_1";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/SignIn",
         element: <SignIn />,
+      },
+      {
+        path: "/product_select_1",
+        element: <Product_select />,
       },
     ],
   },

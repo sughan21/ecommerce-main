@@ -1,5 +1,6 @@
 import React from "react";
 import "./style/home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
         <div className="image-all">
           <img
             className="image-top"
-            src="src/compontents/images/pngegg.png"
+            src="src/compontents/images/[removal.ai]_eeaae7cb-9d74-4bda-a0ac-0fc791823a4d-image.png"
             alt="images"
           />
 
@@ -58,11 +59,13 @@ const Home = () => {
 
       <div className="home-main">
         <span id="Headphone" className="box">
-          <img
-            src="src/compontents/images/pngegg.png"
-            alt="het-1"
-            className="prod-img"
-          />
+          <Link to="/product_select_1">
+            <img
+              src="src/compontents/images/[removal.ai]_eeaae7cb-9d74-4bda-a0ac-0fc791823a4d-image.png"
+              alt="het-1"
+              className="prod-img"
+            />
+          </Link>
           <p className="flex justify-center text-center font-bold">
             Stunning sound and longer battery life
           </p>
@@ -74,7 +77,7 @@ const Home = () => {
 
         <span className="box">
           <img
-            src="src/compontents/images/pngegg (2).png"
+            src="src/compontents/images/[removal.ai]_42f8d115-de3b-4267-9ae3-4f135e9d32d6-image.png"
             alt="het-1"
             className="prod-img"
           />
@@ -88,7 +91,7 @@ const Home = () => {
         </span>
         <span className="box">
           <img
-            src="src/compontents/images/pngegg (3).png"
+            src="src/compontents/images/[removal.ai]_11ef129b-c6f3-4053-888e-66c9453a8625-image.png"
             alt="het-1"
             className="prod-img"
           />
@@ -102,7 +105,7 @@ const Home = () => {
         </span>
         <span className="box">
           <img
-            src="src/compontents/images/pngegg (5).png"
+            src="src/compontents/images/[removal.ai]_0e532559-05ef-4c0e-92b6-d283fcff7cfc-image.png"
             alt="het-1"
             className="prod-img"
           />
@@ -116,7 +119,7 @@ const Home = () => {
         </span>
         <span className="box">
           <img
-            src="src/compontents/images/pngegg (6).png"
+            src="src/compontents/images/[removal.ai]_641d4d1a-980c-4b2f-aac3-48b2297ff37e-image.png"
             alt="het-1"
             className="prod-img"
           />

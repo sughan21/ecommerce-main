@@ -148,6 +148,7 @@
   justify-self: center;
   object-fit: scale-down;
   transition: transform 0.3s;
+  cursor: pointer;
 }
 .prod-img:hover {
   -ms-transform: scale(1); /* IE 9 */
@@ -164,6 +165,7 @@
   justify-content: center;
   transition: transform 0.3s;
   object-fit: scale-down;
+  cursor: pointer;
 }
 
 .prod-img-tv:hover {
